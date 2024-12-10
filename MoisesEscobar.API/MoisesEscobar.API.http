@@ -1,0 +1,6 @@
+@MoisesEscobar.API_HostAddress = http://localhost:5084
+
+GET {{MoisesEscobar.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

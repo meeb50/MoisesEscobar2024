@@ -5,6 +5,10 @@ VisualStudioVersion = 17.12.35514.174 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoisesEscobar.MVC", "MoisesEscobar.MVC\MoisesEscobar.MVC.csproj", "{C8B31812-0BC5-43AF-B701-5943160E2B3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoisesEscobar.API", "MoisesEscobar.API\MoisesEscobar.API.csproj", "{58C9CBA3-9C11-4E5D-BA10-E2F7782D4E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoisesEscobar.Blazor", "MoisesEscobar.Blazor\MoisesEscobar.Blazor.csproj", "{7F0E7FD7-25BD-4DA0-A9E1-54A88E82FA08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C8B31812-0BC5-43AF-B701-5943160E2B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8B31812-0BC5-43AF-B701-5943160E2B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8B31812-0BC5-43AF-B701-5943160E2B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C9CBA3-9C11-4E5D-BA10-E2F7782D4E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C9CBA3-9C11-4E5D-BA10-E2F7782D4E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C9CBA3-9C11-4E5D-BA10-E2F7782D4E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C9CBA3-9C11-4E5D-BA10-E2F7782D4E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0E7FD7-25BD-4DA0-A9E1-54A88E82FA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0E7FD7-25BD-4DA0-A9E1-54A88E82FA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0E7FD7-25BD-4DA0-A9E1-54A88E82FA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0E7FD7-25BD-4DA0-A9E1-54A88E82FA08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
