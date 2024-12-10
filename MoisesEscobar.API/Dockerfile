@@ -12,10 +12,10 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["MoisesEscobar.API.csproj", "."]
-RUN dotnet restore "./MoisesEscobar.API.csproj"
+COPY ["MoisesEscobar.API/MoisesEscobar.API.csproj", "MoisesEscobar.API/"]
+RUN dotnet restore "./MoisesEscobar.API/MoisesEscobar.API.csproj"
 COPY . .
-WORKDIR "/src/."
+WORKDIR "/src/MoisesEscobar.API"
 RUN dotnet build "./MoisesEscobar.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # Esta fase se usa para publicar el proyecto de servicio que se copiará en la fase final.
